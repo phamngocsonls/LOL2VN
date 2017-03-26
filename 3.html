@@ -1,195 +1,195 @@
-﻿<html>
-	<head>
-		<meta charset="utf-8/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Untitled</title>
-		<!-- <link rel="stylesheet" href="bootstrap.min.css" /> -->
-		<link rel="stylesheet" href="Footer-Clean.css />
-		<link rel="stylesheet" href="Navigation-with-Search1.css" />
-		<link rel="stylesheet" href="Project-Horizontal.css />
-		<link rel="stylesheet" href="styles.css" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	</head>
-	<body>
-		<div>
-			<nav class="navbar navbar-default navigation-clean-search">
-				<div class="container">
-					<div class="navbar-header">
-						<a class="navbar-brand navbar-link" href="#">BLX.vn</a>
-						<button class="navbar-toggle collapsed" data-target="#navcol-1" data-toggle="collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-					<div id="navcol-1" class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li class="active" role="presentation">
-							<a href="#">Trang chủ</a>
-						</li>
-						<li role="presentation">
-							<a href="#">Giới thiệu</a>
-						</li>
-						<li role="presentation">
-							<a href="#">Tài liệu ôn tập</a>
-						</li>
-						<li role="presentation">
-							<a href="#">Thi thử online</a>
-						</li>
-						<li role="presentation">
-							<a href="#">Đăng ký hồ sơ</a>
-						</li>
-					</ul>
-					<form class="navbar-form navbar-left" target="_self">
-						<div class="form-group">
-							<label class="control-label" for="search-field"></label>
-							<input id="search-field" class="form-control search-field" name="search" type="search"/>
-						</div>
-						<i class="glyphicon glyphicon-search"></i>
-					</form>
-				</div>
-			</div>
-		</nav>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Đăng kí hồ sơ</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top show-scroll visible">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-link" href="#">BLX.vn</a>
+                <button class="navbar-toggle collapsed" data-target="#navcol-1" data-toggle="collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navcol-1" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+				<li role="presentation">
+                        <a href="#Test">Thi thử trực tuyến</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#Docs">Tài liệu ôn tập</a>
+                    </li>
+                    <li class="active" role="presentation">
+                        <a href="#Signup">Hồ sơ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<hr><hr>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend class="text-center"><strong>TỜ KHAI ĐĂNG KÍ HỒ SƠ THI BẰNG LÁI XE</strong></legend>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Loại bằng:</label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      A1
+    </label> 
+    <label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      A2
+    </label>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Họ và Tên:</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="Nguyễn Văn A" class="form-control input-md" required>
+  <span class="help-block">(Ghi đầy đủ Họ tên tiếng Việt có dấu)</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Ngày sinh:</label>  
+	<div class="col-md-4">
+		<input id="textinput" name="textinput" type="text" placeholder="dd/mm/yy" class="form-control input-md" required> 
 	</div>
-	
-	
-	<div>
-		<div class="container">
-			<h1>
-				<strong>Thi sát hạch lái xe hạng a1 trực tuyến</strong>
-			</h1>
-			<h2>
-				Phần mềm luyện thi lý thuyết
-			</h2>
-			<p>Đề ôn thi, thi thử sát hạch lý thuyết lái xe hạng A1, A2 trong bộ đề 150 câu hỏi thi bằng lái xe máy, mô tô hai bánh. </p>
-                        <p>Không cần download phần mềm, thi online có kết quả và đáp án ngay, thi theo phương thức trắc nghiệm mới luật giao </p>
-                                 <p>thông đường bộ do Tổng cục ĐBVN biên soạn.</p>
-			<p>Mỗi bộ đề gồm 20 câu, trong đó 10 câu hỏi về luật, 5 câu hỏi về biển báo, 5 câu hỏi về sa hình. </p>
-                        <p>Thời gian làm bài: 15 phút, phương án trả lời là chọn tất cả những đáp án đúng. Kết quả: đạt khi trả lời đúng 16 câu trở lên.</p>
-			<p>Bạn đã sẵn sàng <b>thi trực tuyến</b>? Hãy chọn bộ đề và click <b>vào thi</b>.</p>
-		</div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Giới tính:</label>  
+	<div class="col-md-4">
+		<label class="radio-inline" for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      Nữ
+    </label> 
+    <label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      Nam
+    </label>
+	<label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      Khác
+    </label>
 	</div>
-	<div class="projects-horizontal">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6">            
-					<h2>8 bộ đề thi trắc nghiệm lý thuyết A1, A2</h2>
-					<form id="theForm" class="well well-sm">
-						<div class="row">
-							<div class="col-xs-6">
-								<div class="radio"><label><input type="radio" name="Bo-de-thi" value="1">Bộ đề thi số 1</label></div>
-								<div class="radio"><label><input type="radio" name="Bo-de-thi" value="2">Bộ đề thi số 2</label></div>
-								<div class="radio"><label><input type="radio" name="Bo-de-thi" value="3">Bộ đề thi số 3</label></div>
-								<div class="radio"><label><input type="radio" name="Bo-de-thi" value="4">Bộ đề thi số 4</label></div>
-        						</div>        
-        						<div class="col-xs-6 text-right">
-        							<div class="radio"><label><input type="radio" name="Bo-de-thi" value="5">Bộ đề thi số 5</label></div>
-        							<div class="radio"><label><input type="radio" name="Bo-de-thi" value="6">Bộ đề thi số 6</label></div>
-        							<div class="radio"><label><input type="radio" name="Bo-de-thi" value="7">Bộ đề thi số 7</label></div>
-        							<div class="radio"><label><input type="radio" name="Bo-de-thi" value="8">Bộ đề thi số 8</label></div>
-        						</div>
-        					</div>
-      					</form>        
-      					<noscript><p class="text-danger text-center h4">Trình duyệt cần phải bật JavaScript</p></noscript>
-      					<button type="submit" class="btn btn-info btn-lg active center-block" onClick="postwith()"><span class="glyphicon glyphicon-road"></span> Vào thi</button>
-    				</div>
-			</div>
-		</div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Số CMND/Hộ chiếu:</label>  
+	<div class="col-md-4">
+		<input id="textinput" name="textinput" type="text" placeholder="123456789" class="form-control input-md" required> 
 	</div>
-	<div class="projects-horizontal">
-		<div class="container">
-			<div class="intro"></div>
-			<p>RELATED POST</p>
-			<div class="row projects">
-				<div class=col-sm-6 item">
-					<div class="row">
-						<div class="col-md-5">
-							<a href="#">
-								<img class="img-responsive" src="desk.jpg" />
-							</a>
-						</div>
-						<div class="col-md-7">
-							<h3 class="name">Mẫu giấy khám sức khỏe</h3>
-							<p class="description">Mẫu giấy khám sức khỏe</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 item">
-					<div class="row">
-						<div class="col-md-5">
-							<a href="#">
-								<img class="img-responsive" src="building.jpg" />
-							</a>
-						</div>
-						<div class="col-md-7">
-							<h3 class="name">Các giấy tờ cần mang theo khi đi thi</h3>
-							<p class=description>Các giấy tờ cần mang theo khi đi thi</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Ngày cấp:</label>  
+	<div class="col-md-4">
+		<input id="textinput" name="textinput" type="text" placeholder="dd/mm/yy" class="form-control input-md" required> 
 	</div>
-	<div class="footer-clean">
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-sm-4 item">
-						<h3>Khóa học</h3>
-						<ul>
-							<li>
-								<a href="#">Bằng lái xe máy A1</a>
-							</li>
-							<li>
-								<a href="#">Bằng lái xe máy A2</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-3 col-sm-4 item">
-						<h3>Chức năng</h3>
-						<ul>
-							<li>
-								<a href="#">Thi thử online</a>
-							</li>
-							<li>
-								<a href="#">Ôn thi</a>
-							</li>
-							<li>
-								<a href="#">Đăng ký thi</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-3 col-sm-4 item">
-						<h3>Liên hệ</h3>
-						<ul>
-							<li>
-								<a href="#">email: xxx@xxx.com</a>
-							</li>
-							<li>
-								<a href="#">fanpage: fb.com/xxx</a>
-							</li>
-							<li></li>
-						</ul>
-					</div>
-					<div class="col-md-3 item social">
-						<a href="#">
-							<i class="icon ion-social-facebook"></i>
-						</a>
-						<a href="#">
-							<i class="icon ion-social-twitter"></i>
-						</a>
-						<a href="#">
-							<i class="icon ion-social-snapchat"></i>
-						</a>
-						<a href="#">
-							<i class="icon ion-social-instagram"></i>
-						</a>
-						<p class="copyright">LOL2VN @ 2017</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</div>
-</body>			
-</html>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Địa chỉ:</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" required>
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Điện thoại:</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" required>
+    
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Email:</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Địa điểm thi:</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">Hà Nội</option>
+      <option value="2">Đà Nẵng</option>
+      <option value="3">Thành phố Hồ Chí Minh</option>
+    </select>
+  </div>
+</div>
+
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="filebutton">Ảnh làm thẻ</label>
+  <div class="col-md-4">
+    <input id="filebutton" name="filebutton" class="input-file" type="file">
+	<span class="help-block">(Chọn ảnh chân dung trong vòng 6 tháng trở lại đây)</span>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Phương thức thanh toán:</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">Tiền mặt</option>
+      <option value="2">Thẻ</option>
+    </select>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Nhập mã xác thực (mã CAPTCHA):</label>
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+  <img src="abcxyz"></img>
+    <span class="help-block">Vui lòng click vào ảnh để chọn mã CAPTCHA khác</span>
+    </select>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="checkboxes"></label>
+  <div class="col-md-4">
+    <label class="checkbox-inline" for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+      Tôi đồng ý với các <a href="#condition">điều khoản</a> dịch vụ
+    </label>
+  </div>
+</div>
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-success">Đăng ký</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</body>
