@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Đăng kí hồ sơ</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top show-scroll visible">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-link" href="#">BLX.vn</a>
+                <button class="navbar-toggle collapsed" data-target="#navcol-1" data-toggle="collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navcol-1" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+				<li role="presentation">
+                        <a href="#Test">Thi thử trực tuyến</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#Docs">Tài liệu ôn tập</a>
+                    </li>
+                    <li class="active" role="presentation">
+                        <a href="#Signup">Hồ sơ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<hr><hr>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend class="text-center"><strong>TỜ KHAI ĐĂNG KÍ HỒ SƠ THI BẰNG LÁI XE</strong></legend>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Loại bằng:</label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      A1
+    </label> 
+    <label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      A2
+    </label>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Họ và Tên:</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="Nguyễn Văn A" class="form-control input-md" required>
+  <span class="help-block">(Ghi đầy đủ Họ tên tiếng Việt có dấu)</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Ngày sinh:</label>  
+	<div class="col-md-4">
+		<input id="textinput" name="textinput" type="text" placeholder="dd/mm/yy" class="form-control input-md" required> 
+	</div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Giới tính:</label>  
+	<div class="col-md-4">
+		<label class="radio-inline" for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      Nữ
+    </label> 
+    <label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      Nam
+    </label>
+	<label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      Khác
+    </label>
+	</div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Số CMND/Hộ chiếu:</label>  
+	<div class="col-md-4">
+		<input id="textinput" name="textinput" type="text" placeholder="123456789" class="form-control input-md" required> 
+	</div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Ngày cấp:</label>  
+	<div class="col-md-4">
+		<input id="textinput" name="textinput" type="text" placeholder="dd/mm/yy" class="form-control input-md" required> 
+	</div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Địa chỉ:</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" required>
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Điện thoại:</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" required>
+    
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Email:</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Địa điểm thi:</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">Hà Nội</option>
+      <option value="2">Đà Nẵng</option>
+      <option value="3">Thành phố Hồ Chí Minh</option>
+    </select>
+  </div>
+</div>
+
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="filebutton">Ảnh làm thẻ</label>
+  <div class="col-md-4">
+    <input id="filebutton" name="filebutton" class="input-file" type="file">
+	<span class="help-block">(Chọn ảnh chân dung trong vòng 6 tháng trở lại đây)</span>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Phương thức thanh toán:</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">Tiền mặt</option>
+      <option value="2">Thẻ</option>
+    </select>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Nhập mã xác thực (mã CAPTCHA):</label>
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+  <img src="abcxyz"></img>
+    <span class="help-block">Vui lòng click vào ảnh để chọn mã CAPTCHA khác</span>
+    </select>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="checkboxes"></label>
+  <div class="col-md-4">
+    <label class="checkbox-inline" for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+      Tôi đồng ý với các <a href="#condition">điều khoản</a> dịch vụ
+    </label>
+  </div>
+</div>
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-success">Đăng ký</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</body>
